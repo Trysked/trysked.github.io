@@ -1,11 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@600&family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
 body {
-    background-color: #1d1f28 !important;
+    /* background-color: #1d1f28 !important; */
+    background-color: #191a1a;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5em;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
+
+.user, .password{
+    font-family: monospace;
+    font-size: medium;
+    color: rgb(255, 89, 89);
+}
+
 .navbar .container {
     padding: 8px 0;
     font-size: 15px;
+}
+
+.warning{
+    font-size: 25px;
+    color: red;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h2 a{
+    color: #e5d09a;
+}
+
+h2 a:hover{
+    color: red;
+}
+
+blockquote {
+    border-left: 5px solid red;
+    background: #545454;
+    padding-left: 1rem;
+    /* color: var(--blockquote-text-color); */
+}
+
+nav {
+    top: 0;
+    background-color: var(--background);
+    text-align: center;
+    color: var(--foreground);
+    border-bottom: 1px dashed rgb(153, 153, 153);
+    padding-bottom: 1em;
+    font-size: 0.95em
+}
+
+nav > a{
+    text-decoration: none;
+    color: #e5d09a ;
+}
+
+nav > a:hover{
+    color: black;
+    background-color: #f66;
+}
+
+li b {
+    color: #e5d09a;
+}
+li a {
+    color: #f66;
+}
+li a:hover{
+    color: black;
+    background-color: #f66;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -28,25 +97,98 @@ body {
     text-shadow: #44FF00 1px 1px 10px;
     font-size: 20px;
 }
-.jumbotron {
-    color: rgb(221, 221, 221);
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-.jumbotron p{
-    font-family: monospace;
-    font-size: 25px;
-    font-weight: bold;
+
+.name{
+    font-size: 50px;
+    color: red;
+    text-align: center;
 }
 
-.display-4{
-    margin-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-shadow: red 2px 1px 10px;
+.text{
+    margin-top: 1rem;
+    color: #e5d09a;
 }
 
 .icon {
     padding: 3px;
     color:aliceblue
 }
+
+p{
+    color: #e5d09a;
+}
+
+.archive{
+    color: #e5d09a;
+}
+
+.list{
+    color: red;
+}
+
+.scope{
+    color: red;
+    /* font-size: 20px;
+    font-weight: bold; */
+}
+
+.sosmed{
+    text-align: center;
+    color: #e5d09a;
+
+}
+
+footer{
+    border-top: 1px dashed gray;
+}
+/* .container pre {
+    /* overflow-x: auto; */
+    /* display: block; */
+    /* background-color: #2b2b2b; */
+    /* color: #fffffc; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* line-height: 1.428571429; */
+    /* word-break: break-all; */
+    /* padding-right: 20px; */
+.terminal{
+    color: rgb(255, 44, 44);
+}
+
+.victims{
+    color: aqua;
+}
+
+.root{
+    color:rgb(245, 0, 49);
+}
+.rooted{
+    text-align: center;
+    color: red;
+}
+
+section pre{
+    width: auto;
+    overflow: 20px;
+    color: white;
+    background-color: #2b2e2e;
+}
+pre{
+    padding-left: -40px;
+}
+
+code span{
+    color:rgb(185, 185, 185);
+    /* border-left: 100px; */
+    padding-left: 100px;
+}
+/* pre code{
+    text-align: left;
+} */
+
+/* code {
+    color: var(--code-text-color);
+    background-color: var(--code-background-color);
+    padding: 2px 4px;
+    border-radius: white;
+    font-family: var(--code-font-family);
+} */
