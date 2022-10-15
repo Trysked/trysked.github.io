@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@600&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 
 body {
     /* background-color: #1d1f28 !important; */
-    background-color: #191a1a;
+    /* background-color: #191a1a; */
+    background-color: #0a0d1b;
     font-family: 'Inconsolata', monospace;
     line-height: 1.5em;
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+}
+
+.slash{
+    color: red;
+}
+
+.tag{
+    color: #ff5555;
+    /* background-color: #3d4361; */
 }
 
 .user, .password{
@@ -23,7 +35,8 @@ body {
 }
 
 .warning{
-    font-size: 25px;
+    font-family: inter, sans-serif;
+    font-weight: 600;
     color: red;
 }
 
@@ -32,11 +45,17 @@ h2 {
 }
 
 h2 a{
+    font-family: inter, sans-serif;
+    font-weight: 600;
     color: #e5d09a;
 }
 
 h2 a:hover{
     color: red;
+}
+
+.link{
+    list-style-type: none;
 }
 
 blockquote {
@@ -48,7 +67,7 @@ blockquote {
 
 nav {
     top: 0;
-    background-color: var(--background);
+    /* background-color: var(--background); */
     text-align: center;
     color: var(--foreground);
     border-bottom: 1px dashed rgb(153, 153, 153);
@@ -57,6 +76,9 @@ nav {
 }
 
 nav > a{
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    /* font-size: 15px; */
     text-decoration: none;
     color: #e5d09a ;
 }
@@ -98,8 +120,18 @@ li a:hover{
     font-size: 20px;
 }
 
+h3 .name {
+    font-family: inter, sans-serif;
+    font-weight: 700;
+    /* font-size: 50px; */
+    color: red;
+    text-align: center;
+}
+
 .name{
-    font-size: 50px;
+    font-family: inter, sans-serif;
+    font-weight: 700;
+    /* font-size: 50px; */
     color: red;
     text-align: center;
 }
@@ -114,8 +146,16 @@ li a:hover{
     color:aliceblue
 }
 
+.badge{
+    text-align: center;
+}
+
 p{
     color: #e5d09a;
+}
+
+a {
+    text-decoration: none;
 }
 
 .archive{
@@ -127,7 +167,11 @@ p{
 }
 
 .scope{
-    color: red;
+    font-family: inter, sans-serif;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    border-top: 1px solid rgb(139, 135, 135);
+    font-weight: 600;
+    color: #00ffd0;
     /* font-size: 20px;
     font-weight: bold; */
 }
